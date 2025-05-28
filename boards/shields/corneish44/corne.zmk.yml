@@ -1,0 +1,12 @@
+file_format: "1"
+id: corneish44
+name: corneish44
+type: shield
+url: https://github.com/Amir1330/zmk-corneish44
+requires: [pro_micro]
+features:
+  - keys
+  - studio
+siblings:
+  - corneish44_left
+  - corneish44_right

@@ -1,0 +1,5 @@
+config SHIELD_CORNEISH44_LEFT
+    def_bool $(shields_list_contains, corneish44_left)
+
+config SHIELD_CORNEISH44_RIGHT
+    def_bool $(shields_list_contains, corneish44_right)

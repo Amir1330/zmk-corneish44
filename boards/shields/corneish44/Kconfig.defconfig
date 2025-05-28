@@ -1,0 +1,16 @@
+if SHIELD_CORNEISH44_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "corneish44"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_CORNEISH44_LEFT || SHIELD_CORNEISH44_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
